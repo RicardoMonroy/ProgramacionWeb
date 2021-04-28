@@ -1,0 +1,19 @@
+.square {
+    margin: 2em;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+    transition-property: background-color, transform;
+    transition-duration: 1s;
+   }
+
+.square:hover {
+    background-color: yellow;
+    transition-property: background-color, transform;
+    transition-duration: 1s;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
